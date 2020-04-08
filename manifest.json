@@ -1,0 +1,15 @@
+{
+  "name": "Russell Winters Extension",
+  "description": "First Chrome Extension",
+  "version": "1.0",
+  "manifest_version": 2,
+  "chrome_url_overrides": {
+    "newtab": "index.html"
+  },
+  "permissions": [
+    "storage",
+    "bookmarks",
+    "https://api.unsplash.com/photos/random?client_id=ad2PTqNatvQn6Wi-hOxV2l40bocAcUam5Jmju0TPjV0",
+    "https://type.fit/api/quotes"
+  ]
+}
